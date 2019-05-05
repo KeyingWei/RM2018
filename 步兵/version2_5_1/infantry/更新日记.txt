@@ -1,0 +1,35 @@
+1.更改串口分配：
+USART2---连接蓝牙，用于上位机和串口数据打印
+USART6---用于读取裁判系统数据
+USART3---用于读取妙算数据
+2.更改底盘PID公式
+3.完善键盘控制
+4.加入热量检测控制拨弹轮
+5.防卡弹设置（拨弹轮反转）
+6.修复初始化云台时连续转动一圈的BUG
+
+
+
+RED4 Parmas:
+Gx_offset-- 23
+Gy_offset-- 14
+Gz_offset-- -1
+
+yaw_init:  935
+pitch_init:258
+
+注：yaw轴速度环方向为负  
+    CAN2_ID202速度方向为负
+
+
+
+RED1 Parmas:
+Gx_offset-- 22
+Gy_offset-- 0
+Gz_offset-- 1
+
+yaw_init:  855
+pitch_init:8095
+
+注：yaw轴速度环方向为负  
+    CAN2_ID202速度方向为负`
